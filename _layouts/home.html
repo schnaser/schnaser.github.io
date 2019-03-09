@@ -3,11 +3,12 @@ layout: default
 ---
 {{ content }}
 
-<ul>
+<div>
     {% for post in site.posts %}
-    <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt }}</p>
-    </li>
+        <p><a href="{{ post.url }}">Read more...</a></p>
+    </div>
     {% endfor %}
-</ul>
+</div>

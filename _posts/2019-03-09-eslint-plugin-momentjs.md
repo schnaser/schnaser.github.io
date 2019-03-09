@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "eslint-plugin-momentjs"
+description: "ESLint plugin for verifying Moment.js practices"
 date:   2019-03-09 08:22:00 -0600
-categories: projects
+categories: post
 ---
 
 About a month ago, I was working on some stuff using Javascript and our favorite "make-dates-sane" library, [Moment.js](https://momentjs.com/). As you might expect, they have a number of suggestions on how to use Moment.js in such a way that reduces the potential for errors - strict mode parsing, etc. Unfortunately no automatic mechanism for enforcing those suggestions existed.

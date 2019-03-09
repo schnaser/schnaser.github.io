@@ -16,13 +16,7 @@
 <body>
 <div id="container">
     <div class="inner">
-
-        <header>
-            <a href="{{ site.url }}">
-                <h1>{{ page.title | default: site.title }}</h1>
-            </a>
-            <h2>{{ page.description | default: site.description }}</h2>
-        </header>
+        {% include header.html %}
         <hr>
         <section id="main_content">
             {{ content }}
